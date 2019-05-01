@@ -1,5 +1,5 @@
 # is-chacha20-poly1305-supported
-[![Build Status](https://travis-ci.org/reklatsmasters/is-chacha20-poly1305-supported.svg?branch=master)](https://travis-ci.org/reklatsmasters/is-chacha20-poly1305-supported)
+[![Build Status](https://travis-ci.com/reklatsmasters/is-chacha20-poly1305-supported.svg?branch=master)](https://travis-ci.com/reklatsmasters/is-chacha20-poly1305-supported)
 [![npm](https://img.shields.io/npm/v/is-chacha20-poly1305-supported.svg)](https://npmjs.org/package/is-chacha20-poly1305-supported)
 [![node](https://img.shields.io/node/v/is-chacha20-poly1305-supported.svg)](https://npmjs.org/package/is-chacha20-poly1305-supported)
 [![license](https://img.shields.io/npm/l/is-chacha20-poly1305-supported.svg)](https://npmjs.org/package/is-chacha20-poly1305-supported)
