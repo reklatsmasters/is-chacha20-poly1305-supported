@@ -1,6 +1,6 @@
 {
   "name": "is-chacha20-poly1305-supported",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Check whether a chacha20-poly1305 cipher is supported by NodeJS",
   "main": "index.js",
   "scripts": {
