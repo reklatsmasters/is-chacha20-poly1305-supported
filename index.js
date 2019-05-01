@@ -35,7 +35,9 @@ function forceCheck() {
   );
 
   try {
-    const cipher = crypto.createCipheriv('chacha20-poly1305', key, iv);
+    const cipher = crypto.createCipheriv('chacha20-poly1305', key, iv, {
+      authTagLength: 16,
+    });
     cipher.setAAD(aad, { plaintextLength: plaintext.length });
 
     const head = cipher.update(plaintext);
