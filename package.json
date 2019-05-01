@@ -1,0 +1,66 @@
+{
+  "name": "is-chacha20-poly1305-supported",
+  "version": "0.0.0",
+  "description": "Check whether a chacha20-poly1305 cipher is supported by NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint .",
+    "test": "npm run lint && npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reklatsmasters/is-chacha20-poly1305-supported.git"
+  },
+  "keywords": [
+    "cipher",
+    "crypto",
+    "chacha20",
+    "poly1305",
+    "aead",
+    "supported",
+    "check",
+    "is"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "Dmitriy Tsvettsikh <me@reklatsmasters.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reklatsmasters/is-chacha20-poly1305-supported/issues"
+  },
+  "homepage": "https://github.com/reklatsmasters/is-chacha20-poly1305-supported#readme",
+  "devDependencies": {
+    "@nodertc/eslint-config": "^0.2.1",
+    "eslint": "^5.16.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.3"
+  },
+  "eslintConfig": {
+    "extends": "@nodertc",
+    "overrides": [
+      {
+        "files": [
+          "test.js"
+        ],
+        "env": {
+          "jest": true
+        },
+        "rules": {
+          "require-jsdoc": "off"
+        }
+      }
+    ]
+  },
+  "jest": {
+    "modulePaths": [
+      "<rootDir>"
+    ],
+    "testMatch": [
+      "**/test.js"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ]
+  }
+}

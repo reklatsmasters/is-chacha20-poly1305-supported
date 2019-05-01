@@ -1,0 +1,10 @@
+sudo: false
+language: node_js
+node_js:
+  - "12.1.0"  # full support
+  - "10.15.3" # brocken support
+  - "6.17.0"  # missing support
+
+cache: npm
+
+script: npm run test-ci
